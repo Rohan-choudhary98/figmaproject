@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from './Navbar'
-// import Statistic from './Statistic'
  import Main from './Main'
 
 function Dashboard() {
@@ -10,7 +9,6 @@ function Dashboard() {
             <Navbar />
             <div className="grid">
                 <div className="grid_1">
-                    {/* <Statistic /> */}
                      <Main /> 
                 </div>
             </div>
